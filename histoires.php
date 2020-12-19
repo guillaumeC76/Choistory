@@ -1,6 +1,11 @@
 <?php
 session_start();
 include('inc/function.php');
+
+if (!is_logged()) { 
+    header('Location: connexion.php');
+}
+
 include('inc/header.php'); ?>
 
 <div class="histoires_page">
