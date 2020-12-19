@@ -449,4 +449,5 @@ MigrationBackup/
 .ionide/
 
 inc/pdo.php
+histoires/crispaux/incHistoire/pdoHistoire.php
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,osx,visualstudiocode,visualstudio
