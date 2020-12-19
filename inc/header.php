@@ -11,12 +11,25 @@
 <body>
 
 <header>
-    <div class="menu_header">
-        <div class="option_menu"><a href="index.php">Accueil</a></div>
-        <div class="option_menu"><a href="histoires.php">Mes histoires</a></div>
-        <div class="option_menu"><a href="">Contact</a></div>
-        <div class="option_menu"><a href="">Connexion</a></div>
-    </div>
+    <?php if (!is_logged()) { ?>
+
+        <div class="menu_header">
+            <div class="option_menu"><a href="index.php">Accueil</a></div>
+            <div class="option_menu"><a href="histoires.php">Mes histoires</a></div>
+            <div class="option_menu"><a href="">Contact</a></div>
+            <div class="option_menu"><a href="connexion.php">Connexion</a></div>
+        </div>
+
+    <?php }else { ?>
+
+        <div class="menu_header">
+            <div class="option_menu"><a href="index.php">Accueil</a></div>
+            <div class="option_menu"><a href="histoires.php">Mes histoires</a></div>
+            <div class="option_menu"><a href="">Contact</a></div>
+            <div class="option_menu"><a href="compte.php">Mon compte</a></div>
+        </div>
+
+    <?php }?>
 
     <div>
         <div class="starsec"></div>

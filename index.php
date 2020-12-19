@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+include('inc/function.php');
 include('inc/header.php'); ?>
 
 <div class="home_page">
@@ -16,11 +17,9 @@ include('inc/header.php'); ?>
     <!-- END Lamp -->
     <section class="error">
         <!-- Content -->
-        <div class="error__content">
             <div class="error__message message">
                 <h1 class="message__title">Choistory</h1>
             </div>
-        </div>
         <!-- END Content -->
     </section>
 </div>

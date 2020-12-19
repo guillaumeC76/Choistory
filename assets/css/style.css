@@ -67,89 +67,8 @@ body {
     line-height: 1;
 }
 
-label {
-    cursor: pointer;
-}
-
 a {
     text-decoration: none;
-}
-
-input,
-select,
-button,
-textarea {
-    margin: 0;
-    font-size: 100%;
-}
-
-html,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-input {
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
 }
 
 .starsec {
@@ -334,35 +253,9 @@ input {
     }
 }
 
-button {
-    border: none;
-    padding: 0;
-    font-size: 0;
-    line-height: 0;
-    background: none;
-    cursor: pointer;
-}
-
 :focus {
     outline: 0;
 }
-
-.clearfix:before,
-.clearfix:after {
-    content: "\0020";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    zoom: 1;
-}
-
 /* 1. END BODY */
 /***********************************/
 
@@ -381,24 +274,6 @@ button {
     margin-top: 70px;
 }
 
-.error__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.error__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .error__message {
     text-align: center;
     color: #181828;
@@ -413,139 +288,7 @@ button {
     max-width: 960px;
     margin: 0 auto;
 }
-
-.message__text {
-    font-family: "Montserrat", sans-serif;
-    line-height: 42px;
-    font-size: 18px;
-    padding: 0 60px;
-    max-width: 680px;
-    margin: auto;
-}
-
-.error__nav {
-    max-width: 600px;
-    margin: 40px auto 0;
-    text-align: center;
-}
-
-.e-nav__form {
-    position: relative;
-    height: 45px;
-    overflow: hidden;
-    width: 170px;
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid #212121;
-    padding-left: 10px;
-    padding-right: 46px;
-}
-
-.e-nav__icon {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: #212121;
-    -webkit-transition: color 0.25s ease;
-    transition: color 0.25s ease;
-}
-
-.e-nav__link {
-    height: 45px;
-    line-height: 45px;
-    width: 170px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
-    border: 1px solid #181828;
-    color: #181828;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: 0.1rem;
-    position: relative;
-    overflow: hidden;
-}
-
-.e-nav__link:before {
-    content: "";
-    height: 200px;
-    background: #212121;
-    position: absolute;
-    top: 70px;
-    right: 70px;
-    width: 260px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-transform: rotate(50deg);
-    transform: rotate(50deg);
-}
-
-.e-nav__link:after {
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    z-index: 999;
-    position: relative;
-}
-
-.e-nav__link:after {
-    content: "Home Page";
-}
-
-.e-nav__link:hover:before {
-    top: -60px;
-    right: -50px;
-}
-
-.e-nav__link:hover {
-    color: #fff;
-}
-
-.e-nav__link:nth-child(2):hover:after {
-    color: #fff;
-}
-
 /* 2.1. END Section Error */
-
-/* 2.2. Social style */
-.error__social {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 20px;
-    z-index: 10;
-}
-
-.e-social__list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.e-social__icon {
-    padding-bottom: 30px;
-}
-
-.e-social__icon:last-child {
-    padding-bottom: 0;
-}
-
-.e-social__link {
-    color: #fff;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-    display: block;
-}
-
-.e-social__link:hover {
-    opacity: 0.7;
-}
-
-/* 2.2. END Social style */
 
 /* 2.3. Lamp */
 .lamp {
@@ -799,4 +542,115 @@ HISTOIRE
 .crispaux .texte_crispaux p {
     color: #ffffff;
     font-size: 1.2em;
+}
+
+/*
+INSCRIPTION
+*/
+
+h3 {
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(90deg, red, orange, yellow, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.formulaire {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulaire span {
+    color: #ffffff;
+}
+
+.formulaire a {
+    color: transparent;
+    background: linear-gradient(90deg, red, orange, yellow, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.formulaire a:hover {
+    opacity: 0.5;
+}
+
+.champs {
+    width: 80%;
+    margin: 20px 0;
+}
+
+.champs label {
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+.champs input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    background-color: #181828;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+#boutonenvoyer {
+    width: 20%;
+    height: 40px;
+    background-color: #181828;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    color: #ffffff;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 40px 0;
+    font-family: 'Langar', cursive;
+}
+
+#boutonDeconnexion {
+    background-color: #181828;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    cursor: pointer;
+    margin: 40px 0;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-family: 'Langar', cursive;
+}
+
+#boutonenvoyerMdpOublier {
+    width: 40%;
+    height: 40px;
+    background-color: #181828;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    color: #ffffff;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 40px 0;
+    font-family: 'Langar', cursive;
+}
+
+#boutonenvoyer:hover, #boutonDeconnexion:hover, #boutonenvoyerMdpOublier:hover {
+    color: transparent;
+    background: linear-gradient(90deg, red, orange, yellow, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.erreur {
+    color: red;
+    margin-top: 5px;
 }

@@ -1,4 +1,7 @@
-<?php include('inc/header.php'); ?>
+<?php
+session_start();
+include('inc/function.php');
+include('inc/header.php'); ?>
 
 <div class="histoires_page">
     <a href="histoires/crispaux/crispaux.php">
