@@ -11,12 +11,19 @@
 <body>
 
 <header>
-    <div class="top-header"></div>
     <div class="menu_header">
-        <div class="option_menu"><a href="index.html">Accueil</a></div>
-        <div class="option_menu"><a href="">Mes histoires</a></div>
+        <div class="option_menu"><a href="index.php">Accueil</a></div>
+        <div class="option_menu"><a href="histoires.php">Mes histoires</a></div>
         <div class="option_menu"><a href="">Qui suis-je ?</a></div>
         <div class="option_menu"><a href="">Contact</a></div>
     </div>
-    <div class="bottom-header"></div>
+
+    <div>
+        <div class="starsec"></div>
+        <div class="starthird"></div>
+        <div class="starfourth"></div>
+        <div class="starfifth"></div>
+    </div>
 </header>
+
+<div class="marge">

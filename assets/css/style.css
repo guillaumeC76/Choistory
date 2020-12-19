@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
 html,
 body {
     height: 100%;
     margin: 0;
     font-family: 'Langar', cursive;
+    background-color: #181828;
+}
+
+.marge {
+    padding: 50px 10%;
 }
 
 .menu_header {
@@ -12,6 +19,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
 }
 
 .option_menu a {
@@ -27,23 +38,6 @@ body {
     cursor: pointer;
     color: transparent;
     transition: 0.5s;
-}
-
-.bottom-header::before {
-    background-image: url(https://1.bp.blogspot.com/-gxsOcYWghHA/Xp_izTh4sFI/AAAAAAAAU8s/y637Fwg99qAuzW9na_NT_uApny8Vce95gCEwYBhgL/s1600/header-footer-gradient-bg.png);
-}
-
-.bottom-header::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-repeat: repeat-x;
-    background-size: contain;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    opacity: 0.5;
 }
 
 /*
@@ -156,40 +150,6 @@ input {
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-}
-
-.top-header:before {
-    background-image: url(https://1.bp.blogspot.com/-gxsOcYWghHA/Xp_izTh4sFI/AAAAAAAAU8s/y637Fwg99qAuzW9na_NT_uApny8Vce95gCEwYBhgL/s1600/header-footer-gradient-bg.png);
-}
-
-.top-header:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-repeat: repeat-x;
-    background-size: contain;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-}
-
-.bottom-header:before {
-    background-image: url(https://1.bp.blogspot.com/-gxsOcYWghHA/Xp_izTh4sFI/AAAAAAAAU8s/y637Fwg99qAuzW9na_NT_uApny8Vce95gCEwYBhgL/s1600/header-footer-gradient-bg.png);
-}
-
-.bottom-header:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-repeat: repeat-x;
-    background-size: contain;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    opacity: 0.5;
 }
 
 .starsec {
@@ -805,4 +765,38 @@ button {
     .error__nav {
         margin-top: 20px;
     }
+}
+
+/*
+HISTOIRE
+*/
+
+.crispaux {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    margin: 30px 0;
+}
+
+.crispaux .image_crispaux, .crispaux .texte_crispaux {
+    width: 40%;
+}
+
+.crispaux .image_crispaux img {
+    width: 100%;
+    display: block;
+}
+
+.crispaux .texte_crispaux h2 {
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+.crispaux .texte_crispaux p {
+    color: #ffffff;
+    font-size: 1.2em;
 }

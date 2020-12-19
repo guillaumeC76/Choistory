@@ -3,16 +3,6 @@
 include('inc/header.php'); ?>
 
 <div class="home_page">
-
-    <!--dust particel-->
-    <div>
-        <div class="starsec"></div>
-        <div class="starthird"></div>
-        <div class="starfourth"></div>
-        <div class="starfifth"></div>
-    </div>
-    <!--Dust particle end--->
-
     <div class="lamp__wrap">
         <div class="lamp">
             <div class="cable"></div>
