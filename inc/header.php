@@ -14,8 +14,8 @@
     <div class="menu_header">
         <div class="option_menu"><a href="index.php">Accueil</a></div>
         <div class="option_menu"><a href="histoires.php">Mes histoires</a></div>
-        <div class="option_menu"><a href="">Qui suis-je ?</a></div>
         <div class="option_menu"><a href="">Contact</a></div>
+        <div class="option_menu"><a href="">Connexion</a></div>
     </div>
 
     <div>
